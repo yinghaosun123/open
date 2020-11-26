@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/transaction/xa/account/account.iml" filepath="$PROJECT_DIR$/transaction/xa/account/account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transaction/xa/pay/pay.iml" filepath="$PROJECT_DIR$/transaction/xa/pay/pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project.iml" filepath="$PROJECT_DIR$/project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transaction/saga/saga.iml" filepath="$PROJECT_DIR$/transaction/saga/saga.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transaction/tcc/tcc.iml" filepath="$PROJECT_DIR$/transaction/tcc/tcc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transaction/transaction.iml" filepath="$PROJECT_DIR$/transaction/transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transaction/xa/xa.iml" filepath="$PROJECT_DIR$/transaction/xa/xa.iml" />
+    </modules>
+  </component>
+</project>
