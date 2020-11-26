@@ -11,5 +11,10 @@
 
     <artifactId>tcc</artifactId>
 
+    <modules>
+        <module>tcc-account</module>
+        <module>tcc-pay</module>
+    </modules>
+
 
 </project>
