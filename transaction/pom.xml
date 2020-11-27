@@ -15,12 +15,20 @@
         <module>xa</module>
         <module>tcc</module>
         <module>saga</module>
+        <module>account_api</module>
+        <module>pay_api</module>
     </modules>
 
 
 
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.syh</groupId>
+            <artifactId>common</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
