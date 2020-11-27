@@ -10,16 +10,16 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.sql.DataSource;
 
-//@Configuration
+@Configuration
 public class DataSourceConfiguration {
 
-    @Bean
+    @Bean(name = "dataSourceOne")
     @ConfigurationProperties(prefix = "spring.datasource.one")
     public DruidXADataSource dataSourceOne() {
         return new DruidXADataSource();
     }
 
-    @Bean
+    @Bean(name = "dataSourceTwo")
     @ConfigurationProperties(prefix = "spring.datasource.two")
     public DruidXADataSource dataSourceTwo() {
         return new DruidXADataSource();
@@ -43,12 +43,12 @@ public class DataSourceConfiguration {
     }
 
 
-    @Bean
+    @Bean(name = "jdbcTemplateA")
     public JdbcTemplate jdbcTemplateA(DataSource dataSourceA) {
         return new JdbcTemplate(dataSourceA);
     }
 
-    @Bean
+    @Bean(name = "jdbcTemplateB")
     public JdbcTemplate jdbcTemplateB(DataSource dataSourceB) {
         return new JdbcTemplate(dataSourceB);
     }
