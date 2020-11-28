@@ -7,6 +7,8 @@ XA想要保证事务的一致性也是需要添加@Transaction注解，才能够
 </dependency>
 
 
+参考
+https://blog.csdn.net/hamster204/article/details/110163918
 
 
 

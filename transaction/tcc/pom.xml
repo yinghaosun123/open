@@ -10,10 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>tcc</artifactId>
+    <packaging>pom</packaging>
 
     <modules>
         <module>tcc-account</module>
         <module>tcc-pay</module>
+        <module>tcc-common</module>
     </modules>
 
 

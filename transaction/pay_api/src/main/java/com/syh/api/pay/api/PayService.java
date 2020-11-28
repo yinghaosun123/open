@@ -1,13 +1,8 @@
 package com.syh.api.pay.api;
 
-import com.syh.api.pay.model.Pay;
+import com.syh.api.pay.dto.PayDTO;
 
 public interface PayService {
 
-    Pay selectByPrimaryKey(Integer id);
-
-    int insert(Pay pay);
-
-    int updateByPrimaryKey(Integer id, double money, long nowTime);
-
+    Boolean decrease(PayDTO payDTO);
 }

@@ -1,20 +1,19 @@
-
-
 server:
   port: 8763
+  servlet:
+    context-path: /pay-seervice
 eureka:
-  #  instanc中的配置是让该服务使用IP注册到注册中心，而不是hostname
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
-    instance-id: ${spring.cloud.client.ip-address}:${server.port}
-  client:
-    service-url:
-      defaultZone: http://192.168.2.106:8761/eureka/
+
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/chenyun01?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://127.0.0.1:3306/transaction_tcc_pay?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
     username: root
-    password: root
+    password: 123456
   application:
     name: movie

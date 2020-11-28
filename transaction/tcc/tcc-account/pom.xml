@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>com.syh</groupId>
-            <artifactId>account_api</artifactId>
+            <artifactId>tcc-common</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
